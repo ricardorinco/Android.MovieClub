@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_results_single_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:text="tagTitle"
+                android:textColor="#0A284A"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp" />
+
+            <ImageView
+                android:id="@+id/iv_results_single_poster_path"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="#FF9200"
+                android:padding="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp" />
+
+            <ImageView
+                android:id="@+id/iv_results_single_adult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:src="@drawable/tag_adult"/>
+
+            <TextView
+                android:id="@+id/tv_results_single_overview_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="Sinopse"
+                android:textColor="#FF9200"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/tv_results_single_overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="tagOverview"
+                android:textColor="#0A284A"
+                android:layout_margin="10dp" />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_results_single_original_title_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="Título Original: "
+                    android:textColor="#FF9200"
+                    android:layout_margin="10dp" />
+
+                <TextView
+                    android:id="@+id/tv_results_single_original_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="tagOriginalTitle: "
+                    android:textColor="#0A284A"
+                    android:layout_margin="10dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_results_single_release_date_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="Data de Lançamento: "
+                    android:textColor="#FF9200"
+                    android:layout_margin="10dp" />
+
+                <TextView
+                    android:id="@+id/tv_results_single_release_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="tagReleaseDate"
+                    android:textColor="#0A284A"
+                    android:layout_margin="10dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_results_single_popularity_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="Popularidade: "
+                    android:textColor="#FF9200"
+                    android:layout_margin="10dp" />
+
+                <TextView
+                    android:id="@+id/tv_results_single_popularity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="tagPopularity"
+                    android:textColor="#0A284A"
+                    android:layout_margin="10dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_results_single_vote_average_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="Pontuaçao: "
+                    android:textColor="#FF9200"
+                    android:layout_margin="10dp" />
+
+                <TextView
+                    android:id="@+id/tv_results_single_vote_average"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="tagVoteAverage"
+                    android:textColor="#0A284A"
+                    android:layout_margin="10dp" />
+
+            </TableRow>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
