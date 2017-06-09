@@ -1,4 +1,6 @@
-﻿# MovieClub
+> **Mateus 6:33** Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês."
+
+# MovieClub
 Development of an application on the Android platform with access to a WebApi.
 
 
